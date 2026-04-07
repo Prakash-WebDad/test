@@ -3,7 +3,6 @@ const nextConfig = {
   reactStrictMode: true,
 
   logging: {
-    // hide noisy warnings from Turbopack & baseline-browser-mapping
     warnings: false,
   },
 
