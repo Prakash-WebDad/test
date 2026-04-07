@@ -12,7 +12,6 @@ import CtaHero from "./common/CtaHero";
 function page() {
   return (
     <>
-      <HomeSection />
       <TrustedSAP />
       <ResultsSection />
       <WhyChooseSection />
