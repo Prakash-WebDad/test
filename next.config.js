@@ -7,10 +7,8 @@ const nextConfig = {
   },
 
   images: {
-    unoptimized: true, // 🔥 add this
+    unoptimized: true,
   },
 };
-
-module.exports = nextConfig;
 
 module.exports = nextConfig;
