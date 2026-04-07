@@ -1,5 +1,4 @@
 "use client";
-
 import MainLayout from "@/app/common/MainLayout";
 import { industries } from "@/app/utils/HomemockData";
 import linear from "@/app/assets/Images/award-linear.svg";

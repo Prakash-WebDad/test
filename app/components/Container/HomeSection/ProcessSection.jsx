@@ -1,8 +1,6 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
-import publish from "@/app/assets/Images/publish-icon.svg";
 import MainLayout from "@/app/common/MainLayout";
 import { steps } from "@/app/utils/HomemockData";
 import Link from "next/link";
