@@ -2,26 +2,15 @@
 const nextConfig = {
   reactStrictMode: true,
 
-  logging: {
-    warnings: false,
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 
   images: {
-    remotePatterns: [
-      {
-        protocol: "http",
-        hostname: "192.168.1.86",
-        port: "3000",
-        pathname: "/storage/**",
-      },
-      {
-        protocol: "http",
-        hostname: "localhost",
-        port: "3000",
-        pathname: "/storage/**",
-      },
-    ],
+    unoptimized: true, // 🔥 add this
   },
 };
+
+module.exports = nextConfig;
 
 module.exports = nextConfig;
