@@ -1,5 +1,4 @@
 import React from "react";
-import HomeSection from "./components/Container/HomeSection/HomeSection";
 import TrustedSAP from "./components/Container/HomeSection/TrustedSAP";
 import ResultsSection from "./components/Container/HomeSection/ResultsSection";
 import WhyChooseSection from "./components/Container/HomeSection/WhyChooseSection";
