@@ -4,7 +4,6 @@ import Link from "next/link";
 import MainLayout from "@/app/common/MainLayout";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import herobg from "@/app/assets/images/herobg.svg";
 
 const container = {
   hidden: {},
@@ -30,10 +29,10 @@ const HomeSection = () => {
     <MainLayout className="relative min-h-screen bg-black flex flex-col items-center pt-30 md:pt-40 overflow-hidden">
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] pointer-events-none">
         <Image
-          src={herobg}
+          src="/images/homebanner.svg"
           alt="bg"
           fill
-          className="object-cover scale-150 opacity-80 "
+          className="object-cover scale-150 opacity-80"
         />
       </div>
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-[50%] w-[140%] md:w-[90%] h-[161px] md:h-[200px] bg-black rounded-t-[60%_120%] pointer-events-none z-10" />
